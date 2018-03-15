@@ -1,15 +1,18 @@
-import '../styles/theme.scss';
-import '../styles/theme.scss.liquid';
+import '../../styles/theme.scss';
 
 import $ from 'jquery';
 import {pageLinkFocus} from '@shopify/theme-a11y';
 import {cookiesEnabled} from '@shopify/theme-cart';
 import {wrapTable, wrapIframe} from '@shopify/theme-rte';
 
+console.log("I'm the Index Template JS");
+
 window.slate = window.slate || {};
 window.theme = window.theme || {};
 
 /* = =============== Templates ================ */
+// import './templates/customers-addresses';
+// import './templates/customers-login.js';
 
 $(document).ready(() => {
   // Common a11y fixes
